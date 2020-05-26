@@ -19,5 +19,5 @@ An option tab:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_4/index.html
 
 Project 5:
-A slide tab that shows different tab while you click on the arrows:
+A slider that shows different tab while you click on the arrows:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_5/index.html
