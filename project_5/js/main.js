@@ -1,35 +1,49 @@
 $(document).ready(function() {
     //get the id of card that is active
-    var currentIndex=0;
-    var items=$('.item');
+    var currentSlide=1;
+    var totalSlide=$('.item').length;
     
-    for(var i=0;i<items.length;i++)
-    {
-        if($('.item').eq(i).hasClass('active'))
-        {
-            currentIndex=i;
-        }
-    }
-    //console.log(currentIndex);
 
-    //the click function for the 2 arror buttons
+    //console.log(totalSlide);
     $('.btn_prev').click(function(){
-        if(currentIndex>=1)
+        if(currentSlide>1)
         {
-            //remove active to all cards
-            $('.item').removeClass('active');
-            $('.item').eq(--currentIndex).addClass('active');
-            $('.current_slide').text(currentIndex+1);
+            currentSlide--;
+            showSlide(currentSlide);
+        }
+        else
+        {
+            currentSlide=totalSlide;
+            showSlide(currentSlide);
         }
     });
 
     $('.btn_next').click(function(){
-        if(currentIndex+1<items.length)
+        if(currentSlide<totalSlide)
         {
-            //remove active to all cards
-            $('.item').removeClass('active');
-            $('.item').eq(++currentIndex).addClass('active');
-            $('.current_slide').text(currentIndex+1);
+            currentSlide++;
+            showSlide(currentSlide);
+        }
+        else
+        {
+            currentSlide=1;
+            showSlide(currentSlide);
         }
     });
+
+    function showSlide(number)
+    {
+        $('.item').removeClass('active');
+        $('.item').eq(number-1).addClass('active');
+        setTotal(currentSlide,totalSlide);
+    }
+
+    function setTotal(current,total)
+    {
+        $('.current_slide').text(current);
+        $('.total_slide').text(total);
+    }
+
+    showSlide(currentSlide);
+    
 });
