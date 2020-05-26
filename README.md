@@ -21,3 +21,7 @@ link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScri
 Project 5:
 A slider that shows different tab while you click on the arrows:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_5/index.html
+
+Project 6:
+An overlay effect:
+link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_6/index.html
