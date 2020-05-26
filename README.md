@@ -15,7 +15,7 @@ A single page to display the album information from iTunes store:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_3/index.html
 
 Project 4:
-A single page to display the album information from iTunes store:
+An option tab:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_4/index.html
 
 Project 5:
