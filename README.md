@@ -25,3 +25,7 @@ link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScri
 Project 6:
 An overlay effect:
 link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_6/index.html
+
+Project 7:
+Let you take a small quiz:
+link to preview: http://htmlpreview.github.io/?https://github.com/lywme/javaScriptProjects/blob/master/project_7/index.html
